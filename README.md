@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+Aquí te dejo un ejemplo de **README.md** para tu aplicación **TodoApp**. Puedes modificarlo según las características específicas de tu proyecto.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```markdown
+# TodoApp
 
-## Available Scripts
+TodoApp es una aplicación simple de gestión de tareas (To-Do) construida con React. Permite a los usuarios agregar, eliminar y marcar tareas como completadas.
 
-In the project directory, you can run:
+## Características
 
-### `npm start`
+- Añadir nuevas tareas.
+- Marcar tareas como completadas.
+- Eliminar tareas.
+- Interfaz de usuario amigable.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tecnologías utilizadas
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://reactjs.org/) - Librería de JavaScript para construir interfaces de usuario.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Lenguaje de programación principal.
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Para los estilos de la aplicación.
+- [GitHub Pages](https://pages.github.com/) - Para el despliegue de la aplicación.
 
-### `npm test`
+## Instalación
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Si deseas clonar este proyecto y ejecutarlo localmente, sigue estos pasos:
 
-### `npm run build`
+1. Clona el repositorio:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/XanthusCode/TodoApp.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Navega a la carpeta del proyecto:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   cd TodoApp
+   ```
 
-### `npm run eject`
+3. Instala las dependencias:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Inicia el servidor de desarrollo:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   La aplicación estará disponible en `http://localhost:3000`.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Scripts disponibles
 
-### Code Splitting
+En este proyecto puedes usar los siguientes comandos de npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- `npm start`: Inicia la aplicación en modo de desarrollo.
+- `npm run build`: Genera el build optimizado para producción.
+- `npm run deploy`: Despliega el proyecto en GitHub Pages.
 
-### Analyzing the Bundle Size
+## Contribución
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Si deseas contribuir a este proyecto, sigue estos pasos:
 
-### Making a Progressive Web App
+1. Haz un fork del repositorio.
+2. Crea una nueva rama con tus cambios: `git checkout -b feature/nueva-funcionalidad`.
+3. Realiza los cambios y haz commit: `git commit -m 'Añadir nueva funcionalidad'`.
+4. Empuja los cambios a tu rama: `git push origin feature/nueva-funcionalidad`.
+5. Abre un Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Gracias por utilizar TodoApp! Si tienes algún comentario o sugerencia, no dudes en abrir un issue o contribuir al proyecto.
+```

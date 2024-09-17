@@ -23,13 +23,13 @@ body{
   font-style: normal;
 }
 
-/* Asegúrate de que el body ocupe el 100% de la altura de la ventana */
+
 body, html {
   height: 100%;
   margin: 0;
 }
 
-/* Centra el contenedor del formulario en la página */
+
 .form-container {
   display: flex;
   justify-content: center;
@@ -56,28 +56,19 @@ form {
   padding: 10px;
   margin-right: 10px;
   flex: 1; /* Ocupa el espacio restante en el formulario */
-}
-
-/* Estilo para el campo de entrada en foco */
-.form-input:focus {
-  border: 2px solid #1192a1;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-}
-
-/* Estilo para el botón */
-.btn {
-  background-color: #1192a1;
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
   font-size: 16px;
 }
 
 
-.btn:hover {
-  background-color: #0e5a75;
+
+.form-input:hover {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(17, 146, 161, 0.5); /* Sombra suave al pasar el ratón */
+}
+
+.form-input:focus, form:hover {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(17, 146, 161, 0.75); /* Sombra más pronunciada al enfocar */
 }
 
 
@@ -129,12 +120,21 @@ form {
 }
 
 .btn {
+  background-color: #1192a1;
   border: none;
+  color: white;
+  padding: 10px 20px;
   border-radius: 4px;
-  padding: 5px 10px;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease; 
 }
+
+.btn:hover {
+  background-color: #0e5a75;
+  transform: scale(0.9); /* Cambiado 'scale' en lugar de 'transition' */
+}
+
 
 .btn-update {
   background-color: #4caf50;
@@ -171,6 +171,5 @@ form {
 .btn-cancel:hover {
   background-color: #757575;
 }
-
 
 
