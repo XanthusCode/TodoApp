@@ -1,6 +1,3 @@
-Aquí te dejo un ejemplo de **README.md** para tu aplicación **TodoApp**. Puedes modificarlo según las características específicas de tu proyecto.
-
-```markdown
 # TodoApp
 
 TodoApp es una aplicación simple de gestión de tareas (To-Do) construida con React. Permite a los usuarios agregar, eliminar y marcar tareas como completadas.
@@ -68,9 +65,3 @@ Si deseas contribuir a este proyecto, sigue estos pasos:
 3. Realiza los cambios y haz commit: `git commit -m 'Añadir nueva funcionalidad'`.
 4. Empuja los cambios a tu rama: `git push origin feature/nueva-funcionalidad`.
 5. Abre un Pull Request.
-
-
----
-
-¡Gracias por utilizar TodoApp! Si tienes algún comentario o sugerencia, no dudes en abrir un issue o contribuir al proyecto.
-```
