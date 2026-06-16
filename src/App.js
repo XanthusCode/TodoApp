@@ -1,27 +1,24 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 
 import TodoList from './components/TodoList';
-import './App.css';  
 
+import './App.css';
+
+const APP_NAME = 'Mis Tareas';
 
 const App = () => {
-  const [todos, setTodos] = useState([]);
-
-  const addTodo = (text) => {
-    setTodos([...todos, { text, completed: false }]);
-  };
-
-  const toggleTodo = (index) => {
-    const newTodos = todos.map((todo, i) =>
-      i === index ? { ...todo, completed: !todo.completed } : todo
-    );
-    setTodos(newTodos);
-  };
+  useEffect(() => {
+    document.title = APP_NAME;
+  }, []);
 
   return (
-    <div>
-      <h1 className='titulo'>Todo App</h1>
-      <TodoList todos={todos} toggleTodo={toggleTodo} />
+    <div className="app">
+      <header className="app-header">
+        <h1 className="titulo">{APP_NAME}</h1>
+      </header>
+      <main className="app-main">
+        <TodoList />
+      </main>
     </div>
   );
 };
